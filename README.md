@@ -4,20 +4,40 @@ This repository contains optimization scripts for AMD CPUs and GPUs designed to 
 
 NOTE:t’s not required, but having CoreCtrl installed is definitely beneficial, especially for users who:
 
-    Want a graphical overview of their CPU/GPU settings
+Want a graphical overview of their CPU/GPU settings
 
-    Need to fine-tune or visualize performance states and power profiles
+Need to fine-tune or visualize performance states and power profiles
 
-    Use your scripts and want a fallback GUI for manual adjustments
+Use your scripts and want a fallback GUI for manual adjustments
 
     https://gitlab.com/corectrl/corectrl 
 
+Arch Linux
+
+     pacman -S corectrl
+
+Fedora
+
+    sudo dnf install corectrl
+
+Gentoo
+Add the farmboy0 overlay.
+Then run:
+
+      emerge --ask --verbose kde-misc/corectrl
+
+openSUSE
+Install the corectrl package from OBS.
+
+Debian / Ubuntu
+
+       sudo apt install corectrl
 🧾 Formal Attribution Option
 
-    🧩 CoreCtrl Integration Notice
-    This project is inspired by and complements CoreCtrl, an advanced graphical tuning application for AMD GPUs and CPUs on Linux.
-    CoreCtrl is developed by Juan Palacios and the open-source community. All credit for the CoreCtrl application and its resources goes to the original authors
-
+🧩 CoreCtrl Integration Notice
+This project is inspired by and complements CoreCtrl, an advanced graphical tuning application for AMD GPUs and CPUs on Linux.
+ CoreCtrl is developed by Juan Palacios and the open-source community. All credit for the CoreCtrl application and its resources goes to the original authors
+      
 
 ## AMD CPU Optimization Script
 
