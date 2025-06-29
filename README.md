@@ -2,6 +2,23 @@
 
 This repository contains optimization scripts for AMD CPUs and GPUs designed to enhance performance and adjust power settings.
 
+NOTE:t’s not required, but having CoreCtrl installed is definitely beneficial, especially for users who:
+
+    Want a graphical overview of their CPU/GPU settings
+
+    Need to fine-tune or visualize performance states and power profiles
+
+    Use your scripts and want a fallback GUI for manual adjustments
+
+    https://gitlab.com/corectrl/corectrl 
+
+🧾 Formal Attribution Option
+
+    🧩 CoreCtrl Integration Notice
+    This project is inspired by and complements CoreCtrl, an advanced graphical tuning application for AMD GPUs and CPUs on Linux.
+    CoreCtrl is developed by Juan Palacios and the open-source community. All credit for the CoreCtrl application and its resources goes to the original authors
+
+
 ## AMD CPU Optimization Script
 
 The CPU optimization script allows you to:
@@ -55,6 +72,11 @@ The GPU optimization script allows you to:
 - `install`: Install required GPU tools
 - `enable-oc`: Enable GPU overclocking support
 - `help`: Show help message
+- 
+🤝 Collaborative Tone (Friendly Open Source Style)
+
+    🤝 This project is not affiliated with CoreCtrl, but aims to work alongside it.
+    Much appreciation to the CoreCtrl team and community for their fantastic open-source work!
 
 ## License
 
